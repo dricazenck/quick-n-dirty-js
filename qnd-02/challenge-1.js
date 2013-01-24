@@ -16,8 +16,6 @@
 
 var Pow = function(exponent){
 
-	this.exponent = exponent;
-
 
 	return {
 		potecia : function(base) {
@@ -39,4 +37,6 @@ var cubo = Pow(3);
 console.log(cubo.potecia(2));
 console.log(cubo.potecia(3));
 console.log(cubo.potecia(4));
+
+
 
